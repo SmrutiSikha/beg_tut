@@ -8,7 +8,8 @@ void chatterCallback(const std_msgs::Int32::ConstPtr& msg)
 }
 void chatter1Callback(const std_msgs::Int32::ConstPtr& msg1)
 {
-	n2=msg1->data;
+	//smruti
+  n2=msg1->data;
   std::cout<<" "<<n2<<std::endl;
 }
 
